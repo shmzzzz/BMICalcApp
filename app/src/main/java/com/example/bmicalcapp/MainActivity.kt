@@ -94,6 +94,15 @@ class MainActivity : ComponentActivity() {
                                 color = Color.White,
                             )
                         }
+                        Spacer(modifier = Modifier.height(20.dp))
+                        Text(
+                            modifier = Modifier.fillMaxWidth(),
+                            textAlign = TextAlign.Center,
+                            text = "あなたのBMIは00.0です",
+                            color = Color.Gray,
+                            fontSize = 24.sp,
+                            fontWeight = FontWeight.ExtraBold,
+                        )
                     }
                 }
             }
